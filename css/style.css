@@ -24,7 +24,7 @@ section{
 .secao1{
     position: relative;
     z-index: 99;
-    mask-image: url("gta-logo.svg");
+    mask-image: url("../assets/svg/gta-logo.svg");
     mask-repeat: no-repeat;
     mask-size: 2800vw;
     mask-position: center;
@@ -62,9 +62,10 @@ section{
     top: 0;
     left: 0;
     opacity: 1;
-    img{
-        width: 20vw;
-    }
+}
+
+.secao2 img{
+    width: 20vw;
 }
 
 .secao3{
@@ -72,7 +73,7 @@ section{
     position: absolute;
     top: 0;
     left: 0;
-    mask-image: url("Ellipse.svg");
+    mask-image: url("../assets/svg/Ellipse.svg");
     mask-repeat: no-repeat;
     mask-size: 0vw;
     mask-position: center;
